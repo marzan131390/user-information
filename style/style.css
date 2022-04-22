@@ -1,3 +1,50 @@
 body {
-    background: url("../images/background-image.jpg") no-repeat center;
+    background: url("../images/background-image.jpg") no-repeat;
+    background-size: cover;
 }
+#all-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#taking-name {
+    position: absolute;
+}
+#name-input {
+    font-size: 16px;
+    padding: 9px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(211, 211, 211, .9);
+    width: 350px;
+}
+#search{
+    position: relative;
+    border: none;
+    background: rgb(94, 179, 188);
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 0 5px 5px 0;
+    left: -7px;
+}
+#search:hover {
+    background-color: rgb(38, 175, 190);
+    cursor: pointer;
+}
+#user-information {
+    margin: 50px 0px;
+}
+#matching-name-lists {
+    list-style-type: none;
+    color: rgb(23, 22, 22);
+    font-size: 25px;
+    font-weight: 800;
+ 
+    
+}
+#matching-name-lists li {
+    margin: 7px 0px;
+}
+
