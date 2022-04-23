@@ -1,6 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
-    background: url("../images/background-image.jpg") no-repeat;
+    background: url("../images/background-image.jpg") no-repeat fixed;
     background-size: cover;
+    
 }
 #all-content {
     display: flex;
@@ -39,7 +44,7 @@ body {
 #matching-name-lists {
     list-style-type: none;
     color: rgb(23, 22, 22);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 800;  
 }
 #matching-name-lists li {
@@ -60,4 +65,25 @@ body {
 }
 .id {
     display: none;
+}
+.info-content {
+    margin-top: 20px;
+    color: rgb(72, 4, 136);
+    font-size: 20px;
+    background: rgba(128, 128, 128, .5);
+    padding: 20px 30px;
+    border-radius: 15px;
+    display: none;
+}
+
+.info-content p {
+    margin: 10px 0px;
+}
+.hide-btn {
+    background: rgb(201, 139, 25);
+    color: #fff;
+   margin-left: 80px;
+}
+.hide-btn:hover {
+    background: rgb(160, 105, 1);
 }
