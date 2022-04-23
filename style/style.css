@@ -15,22 +15,22 @@ body {
     padding: 9px;
     text-transform: capitalize;
     border: none;
-    border-radius: 5px 0 0 5px;
+    border-radius: 10px 0 0 10px;
     background-color: rgba(211, 211, 211, .9);
     width: 350px;
 }
 #search{
     position: relative;
     border: none;
-    background: rgb(94, 179, 188);
-    padding: 8px 20px;
+    background: rgb(38, 175, 190);
+    padding: 8px 30px;
     color: #fff;
-    font-size: 18px;
-    border-radius: 0 5px 5px 0;
+    font-size: 19px;
+    border-radius: 0 10px 10px 0;
     left: -7px;
 }
 #search:hover {
-    background-color: rgb(38, 175, 190);
+    background-color: rgb(4, 135, 150);
     cursor: pointer;
 }
 #user-information {
@@ -40,11 +40,24 @@ body {
     list-style-type: none;
     color: rgb(23, 22, 22);
     font-size: 25px;
-    font-weight: 800;
- 
-    
+    font-weight: 800;  
 }
 #matching-name-lists li {
     margin: 7px 0px;
 }
-
+.full-info {
+    font-size: 15px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: gray;
+    margin-left: 5px;
+}
+.full-info:hover {
+    background: rgb(40, 196, 144);
+    cursor: pointer;
+}
+.id {
+    display: none;
+}
