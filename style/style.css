@@ -86,3 +86,10 @@ body {
 .hide-btn:hover {
     background: rgb(160, 105, 1);
 }
+.warning {
+    font-size: 50px;
+    margin-top: 70px;
+    font-weight: 800;
+    color: rgb(218, 48, 48);
+    display: none;
+}
