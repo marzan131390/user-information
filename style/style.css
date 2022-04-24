@@ -50,7 +50,7 @@ body {
 #matching-name-lists li {
     margin: 7px 0px;
 }
-.full-info {
+.full-info-btn {
     font-size: 15px;
     padding: 7px 15px;
     border: none;
@@ -59,7 +59,7 @@ body {
     color: gray;
     margin-left: 5px;
 }
-.full-info:hover {
+.full-info-btn:hover {
     background: rgb(40, 196, 144);
     cursor: pointer;
 }
@@ -75,7 +75,6 @@ body {
     border-radius: 15px;
     display: none;
 }
-
 .info-content p {
     margin: 10px 0px;
 }
